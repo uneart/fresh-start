@@ -1,3 +1,8 @@
+/**
+ * Basic gulp file. To install all necessary plugins with the node package manager run the following command:
+ * npm install --save-dev gulp gulp-sass gulp-autoprefixer gulp-cssnano gulp-rename del gulp-notify gulp-filter browser-sync gulp-uglify gulp-plumber gulp-util gulp-csscomb gulp-concat
+ */
+
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     autoprefix = require('gulp-autoprefixer'),
